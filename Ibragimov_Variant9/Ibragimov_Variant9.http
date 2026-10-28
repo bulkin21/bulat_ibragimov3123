@@ -1,6 +1,11 @@
 @Ibragimov_Variant9_HostAddress = http://localhost:5056
 
-GET {{Ibragimov_Variant9_HostAddress}}/weatherforecast/
+GET {{Ibragimov_Variant9_HostAddress}}/WeatherForecast
+Accept: application/json
+
+###
+
+POST {{Ibragimov_Variant9_HostAddress}}/WeatherForecast?newSummary=Excellent
 Accept: application/json
 
 ###
